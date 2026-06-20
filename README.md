@@ -1,26 +1,21 @@
-## Project Preview
+# Project Preview
 
-The FAQ Chatbot is an intelligent web-based application developed using Python, Flask, NLTK, and Scikit-learn to automate responses to frequently asked questions. The chatbot leverages Natural Language Processing (NLP) techniques to understand user queries, preprocess text, and identify the most relevant answer from a predefined FAQ database.
+The FAQ Chatbot is an intelligent question-answering system designed to provide instant responses to frequently asked questions. Instead of relying solely on keyword matching, the chatbot uses Natural Language Processing (NLP) and Sentence Transformers to understand the semantic meaning of user queries and find the most relevant answer from a predefined FAQ database.
 
-Users can interact with the chatbot through a simple and responsive web interface, where questions are analyzed using text tokenization and similarity-matching algorithms. By comparing user input with stored FAQ entries, the system delivers quick and accurate responses, improving user experience and reducing the need for manual support.
+The application features a clean web-based interface built with Flask, HTML, CSS, and JavaScript, allowing users to interact with the chatbot in real time. When a user submits a question, the system converts both the query and stored FAQ questions into vector embeddings, compares them using cosine similarity, and returns the most appropriate response.
 
-### Key Highlights
+Key highlights include:
 
-* Interactive and user-friendly chatbot interface
-* NLP-based text preprocessing and tokenization
-* Similarity-based FAQ matching for accurate responses
-* Fast and efficient answer retrieval
-* Built with Flask for seamless web integration
-* Easily customizable FAQ knowledge base
+* Semantic understanding of user questions
+* Fast and accurate FAQ retrieval
+* User-friendly web interface
+* Greeting recognition and conversational responses
+* Easy FAQ management through CSV files
+* Scalable architecture for future AI enhancements
 
-### Example Interaction
+This project is suitable for customer support systems, educational portals, help desks, e-commerce platforms, and any application requiring automated responses to common user inquiries.
+## AUTHOR
+Sathwika Sanku
 
-**User:** How can I reset my password?
-
-**Chatbot:** You can reset your password by clicking the "Forgot Password" option on the login page and following the instructions sent to your registered email.
-
-This project demonstrates the practical implementation of Natural Language Processing and Machine Learning concepts to build an intelligent FAQ assistant suitable for customer support, educational platforms, and information management systems.
-#Author 
-sathwika sanku
-#License 
+## License
 This project is created for educational and internship purposes. take these as reference and give preview
